@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Breakpoints de tela
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+
+.container1 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #1C1E39 0%, #274E5C 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cabecalho {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    width: 300px;
+    height: 110px;
+    padding-bottom: 3%;
+}
+.cabecalho img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.textFlori{
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    align-self: center;
+    white-space: nowrap;
+    color: white;
+    padding-right: 1vw;
+}
+
+.boxLogin {
+    width: 300px;
+    height: 520px;
+    background-color: rgb(117, 117, 117);
+    border: 1px solid;
+}
