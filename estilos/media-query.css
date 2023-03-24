@@ -1,0 +1,61 @@
+/* Pequenas telas: até 600px */
+@media (max-width: 600px) {
+    .cabecalho {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+    }
+    .cabecalho img {
+      margin-bottom: 10px;
+    }
+    .textFlori {
+      font-size: 0.8em;
+    }
+    .boxLogin {
+      width: 90%;
+      height: auto;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Celular: de 600px até 768px */
+  @media (min-width: 600px) and (max-width: 768px) {
+    .textFlori {
+      font-size: 0.9em;
+    }
+  }
+  
+  /* Tablet: 768px até 992px */
+  @media (min-width: 768px) and (max-width: 992px) {
+    .cabecalho {
+      height: 60px;
+    }
+    .textFlori {
+      font-size: 1.2em;
+    }
+    .boxLogin {
+      width: 70%;
+    }
+  }
+  
+  /* Desktop: 992px até 1200px */
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .cabecalho {
+      height: 70px;
+    }
+    .textFlori {
+      font-size: 1.4em;
+    }
+  }
+  
+  /* Grandes telas: acima de 1200px */
+  @media (min-width: 1200px) {
+    .cabecalho {
+      height: 80px;
+    }
+    .textFlori {
+      font-size: 1.5em;
+    }
+  }
+  
